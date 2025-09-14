@@ -1,0 +1,8 @@
+0                                        ! seed_flag
+347.01120	347.01120	21.6882          ! rx_slab, ry_slab, rz_slab (for PBC processing, in Angstrom)
+4                                        ! z_surf (for avoiding the bottom surface in slab, in Angstrom)
+0.077 -1.32 0.033 -0.274                 ! M_CO_slope, M_CO_intercept, M_H_slope, M_H_intercept; used in Eads = slope * gcn + intercept
+0.148 0.0235 0.0336                      ! Interaction between CO-CO; CO-H; H-H
+-0.388932 0.088694 -0.045324 0.100035    ! G_corr(T)_COgas, G_corr(T)_COads, G_corr(T)_H2gas, G_corr(T)_Hads
+100000 300 7 -0.2                        ! pCO (Pa), Temp (K), pH, U_RHE (eV)
+20000000 2000000                         ! total steps, steps per output file
